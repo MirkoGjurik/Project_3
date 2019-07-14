@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet">
+    
+    <title>RGB GAME</title>
+
+  </head>
+  <body>
+    <h1>
+      GAMING CHALLENGE
+      <br />
+      <span id="colorDisplay">RGB</span>
+      <br />
+      <span class="desc">find the right color to WIN!</span>
+    </h1>
+
+    <div id="stripe">
+      <button id="reset">New Colors</button>
+      <span id="message"></span>
+      <button class="mode" id="easy">Easy</button>
+      <button class="mode selected" id="hard">Hard</button>
+    </div>
+
+    <div id="container">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
